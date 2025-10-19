@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Div Layout Page</title>
+<style>
+body {
+margin: 0;
+font-family: Arial;
+text-align: center;
+}
+
+.header {
+background-color: darkgreen;
+color: white;
+padding: 20px;
+}
+
+.main {
+display: flex;
+height: 400px;
+}
+
+.left {
+background-color: violet;
+width: 25%;
+padding: 20px;
+}
+
+.center {
+background-color: red;
+width: 50%;
+padding: 20px;
+}
+
+.right {
+background-color: limegreen;
+width: 25%;
+padding: 20px;
+}
+
+.footer {
+background-color: green;
+color: white;
+padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">This is header</div>
+
+<div class="main">
+<div class="left">Left <br> Content</div>
+<div class="center">Center Content</div>
+<div class="right">Right Content</div>
+</div>
+
+<div class="footer">Footer</div>
+
+</body>
+</html>

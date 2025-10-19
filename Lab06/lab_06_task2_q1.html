@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="lightyellow">
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label>Family name:</label>
+        <input type="text" name="familyname"><br><br>
+
+        <label>Other name:</label>
+        <input type="text" name="othername"><br><br>
+
+        <label>Address:</label>
+        <input type="text" name="address"><br><br>
+
+        <label>Suburb:</label>
+        <input type="text" name="suburb"><br><br>
+
+        <label>State/Territory:</label>
+        <select name="state">
+            <option value="vic">VIC</option>
+            <option value="nsw">NSW</option>
+            <option value="qld">QLD</option>
+            <option value="wa">WA</option>
+        </select><br><br>
+
+        <label>Course Info On:</label><br>
+        <input type="checkbox" name="course" value="engineering"> Engineering<br>
+        <input type="checkbox" name="course" value="it"> IT<br>
+        <input type="checkbox" name="course" value="law"> Law<br>
+        <input type="checkbox" name="course" value="medicine"> Medicine<br>
+        <input type="checkbox" name="course" value="nursing"> Nursing<br><br>
+
+        <label>Degree:</label><br>
+        <input type="radio" name="degree" value="diploma"> Diploma<br>
+        <input type="radio" name="degree" value="degree"> Degree<br>
+        <input type="radio" name="degree" value="honours"> Honours<br>
+        <input type="radio" name="degree" value="masters"> Masters<br>
+        <input type="radio" name="degree" value="phd"> PhD<br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
